@@ -1,0 +1,12 @@
+#cover {
+background: url('img/cover-bulk-foods.jpg') no-repeat center center;
+background-size: cover;
+height: 180px;
+
+}
+
+
+.litebrown {
+background-color: #C9BCB2;
+color: white;
+}
