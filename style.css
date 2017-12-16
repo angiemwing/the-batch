@@ -1,12 +1,63 @@
+/*----------typography-----------*/
+p{
+  margin: 0px;
+}
+
+h1 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+
+
+/*----------mission styles-----------*/
+
 #cover {
 background: url('img/cover-bulk-foods.jpg') no-repeat center center;
 background-size: cover;
 height: 180px;
-
 }
 
+
+/*----------location bar styles-----------*/
 
 .litebrown {
 background-color: #C9BCB2;
 color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.center-dis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+
+/*----------location bar styles-----------*/
+
+#sale-cover {
+background: url('img/store-front.jpg') no-repeat center center;
+background-size: cover;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#sale {
+  text-align: center;
+  background-color: white;
+  width: 90%;
+  height: 50%;
+  padding: 5%;
 }
