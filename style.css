@@ -1,25 +1,86 @@
+/*----------colors-----------*/
+
+body, .card {
+  background-color: #f9f2e8;
+  border: none;
+}
+.orange {
+  background-color: #f8ceb7;
+}
+#loc-one {
+  background-color: #f8ceb7;
+}
+#loc-two {
+  background-color: #cfdccd;
+}
+#loc-three {
+  background-color: #c9bcb2;
+}
+#loc-four {
+  background-color: #f8ceb7;
+}
+
 /*----------typography-----------*/
 p{
   margin: 0px;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 175%;
+  font-size: .9em;
 }
 
 h1 {
   padding-top: 40px;
   padding-bottom: 10px;
-  font-size: 10px;
+  font-size: 1.5em;
+  font-family: gastromond, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: gastromond, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: .75em;
+}
+
+.navbar-brand{
+  font-size: 1.75em;
+  font-family: gastromond, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.pads {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
 
 /*----------mission styles-----------*/
 
 #cover {
 background: url('img/cover-bulk-foods.jpg') no-repeat center center;
 background-size: cover;
-height: 180px;
+height: 250px;
 }
 
 
 /*----------location bar styles-----------*/
+
+.sm-line {
+    line-height: 125%;
+}
 
 .litebrown {
 background-color: #C9BCB2;
@@ -43,7 +104,7 @@ padding-bottom: 30px;
 }
 
 
-/*----------location bar styles-----------*/
+/*---------- weekly sale div styles-----------*/
 
 #sale-cover {
 background: url('img/store-front.jpg') no-repeat center center;
@@ -61,3 +122,68 @@ align-items: center;
   height: 50%;
   padding: 5%;
 }
+
+
+/*---------- food products -----------*/
+
+.food-row{
+  padding-top: 40px;
+}
+
+
+/*---------- shop bags -----------*/
+
+
+#shop-bag {
+  height: 150px;
+  color: white;
+  margin-top: 50px;
+}
+
+#shop-bag h1 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+/*---------- food products -----------*/
+
+
+#store {
+background: url('img/inside-store.jpg') no-repeat center center;
+background-size: cover;
+height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------- food products -----------*/
