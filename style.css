@@ -7,6 +7,9 @@ body, .card {
 .orange {
   background-color: #f8ceb7;
 }
+.green {
+  background-color: #cfdccd;
+}
 #loc-one {
   background-color: #f8ceb7;
 }
@@ -146,13 +149,57 @@ align-items: center;
 }
 
 
-/*---------- food products -----------*/
+/*---------- food storage -----------*/
 
 
 #store {
 background: url('img/inside-store.jpg') no-repeat center center;
 background-size: cover;
 height: 250px;
+}
+
+#read {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#read h4 {
+  padding-top: 10%;
+}
+
+
+/*---------- plasic free -----------*/
+
+ #plastic-free {
+   color: white;
+   padding-top: 30px;
+ }
+
+ #plastic-free h1 {
+   padding-bottom: 0px;
+ }
+ #plastic-free h4 {
+   font-weight: bold;
+   padding-top: 15%;
+ }
+.space {
+   padding-top: 50px;
+
+ }
+#less {
+  padding-bottom: 60px;
+}
+
+/*---------- recipies -----------*/
+
+.bckgn-white {
+  background-color: white;
+  height: 100px;
+  padding-left: 10px;
+}
+
+#recipe-last {
+    padding-bottom: 80px;
 }
 
 
@@ -164,21 +211,7 @@ height: 250px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*class="mx-auto d-block*/
 
 
 
