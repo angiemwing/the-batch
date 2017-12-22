@@ -10,18 +10,11 @@ body, .card {
 .green {
   background-color: #cfdccd;
 }
-#loc-one {
-  background-color: #f8ceb7;
-}
-#loc-two {
-  background-color: #cfdccd;
-}
-#loc-three {
+
+.brown {
   background-color: #c9bcb2;
 }
-#loc-four {
-  background-color: #f8ceb7;
-}
+
 
 /*----------typography-----------*/
 p{
@@ -66,45 +59,64 @@ h4 {
   font-weight: 400;
 }
 .pads {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
 /*----------mission styles-----------*/
 
+
+
 #cover {
-background: url('img/cover-bulk-foods.jpg') no-repeat center center;
-background-size: cover;
-height: 250px;
+  height: 100%;
+}
+
+#cover img {
+  height: 100%;
+  width: 100%;
+}
+
+#mission-p {
+  padding-bottom: 50px;
 }
 
 
 /*----------location bar styles-----------*/
 
+
+#loc-title{
+  background-color: white;
+}
 .sm-line {
     line-height: 125%;
 }
 
-.litebrown {
-background-color: #C9BCB2;
+.loc-pad-color {
 color: white;
 padding-top: 30px;
 padding-bottom: 30px;
+
 }
 
-.center-dis{
+.par {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
+  justify-content: space-between;
+
 }
 
-.arrow{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
+.f-left {
+  float: left;
 }
+
+.arrow-padding{
+  padding-top: 10px;
+  padding-right: 10%;
+}
+
+.inlineblock{
+  display: inline-block;
+}
+
 
 
 /*---------- weekly sale div styles-----------*/
@@ -204,17 +216,38 @@ height: 250px;
 
 
 
-
-
-
-
-
-
-
 /*class="mx-auto d-block*/
 
+@media (min-width: 768px) {
+    #mission {
+        padding: 20%;
+    }
+    p{
+      font-size: .9em;
+    }
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    h2 {
+      font-size: 1em;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
+
+    h4 {
+          font-size: .75em;
+    }
 
 
+
+
+
+
+}
 
 
 
