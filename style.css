@@ -57,7 +57,13 @@ h4 {
   font-family: gastromond, sans-serif;
   font-style: normal;
   font-weight: 400;
+  text-align: center;
 }
+
+.navbar .nav-brand .navbar-nav {
+    text-align: center;
+}
+
 .pads {
   padding-top: 20px;
   padding-bottom: 10px;
@@ -68,12 +74,11 @@ h4 {
 
 
 #cover {
-  height: 100%;
+
 }
 
 #cover img {
-  height: 100%;
-  width: 100%;
+
 }
 
 #mission-p {
