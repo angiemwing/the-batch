@@ -4,6 +4,10 @@ body, .card {
   background-color: #f9f2e8;
   border: none;
 }
+.cont {
+  margin-left: 15px;
+  margin-right: 15px;
+}
 .orange {
   background-color: #f8ceb7;
 }
@@ -69,28 +73,40 @@ h4 {
   padding-bottom: 10px;
 }
 
-/*----------mission styles-----------*/
-
-
-
-#cover {
-
+.navbar-brand {
+  padding-right:100px;
 }
 
-#cover img {
+/*----------mission styles-----------*/
 
+#cover {
+  background-image: url('img/cover-bulk-foods-01.jpg');
+  height: 447px;
+  background-size: cover;
+  position: center;
 }
 
 #mission-p {
-  padding-bottom: 50px;
+  padding-bottom: 0px;
+}
+
+#mission {
+  padding-left: auto;
+  padding-top: 5%;
+  padding-bottom: 15%;
 }
 
 
 /*----------location bar styles-----------*/
 
-
+#title-margin {
+  margin-bottom: 0px;
+}
 #loc-title{
   background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 .sm-line {
     line-height: 125%;
@@ -138,9 +154,10 @@ align-items: center;
 #sale {
   text-align: center;
   background-color: white;
-  width: 90%;
   height: 50%;
-  padding: 5%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
@@ -149,15 +166,18 @@ align-items: center;
 .food-row{
   padding-top: 40px;
 }
+.block-pads {
+  padding-top: 10%;
+}
 
+#products {
+  padding-bottom: 10%;
+}
 
 /*---------- shop bags -----------*/
 
 
 #shop-bag {
-  height: 150px;
-  color: white;
-  margin-top: 50px;
 }
 
 #shop-bag h1 {
@@ -183,6 +203,8 @@ height: 250px;
 #read h4 {
   padding-top: 10%;
 }
+
+
 
 
 /*---------- plasic free -----------*/
@@ -221,39 +243,45 @@ height: 250px;
 
 
 
-/*class="mx-auto d-block*/
+/*media queries */
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     #mission {
-        padding: 20%;
+      padding: 20%;
     }
     p{
       font-size: .9em;
     }
 
     h1 {
-      font-size: 1.5em;
+      font-size: 1.75em;
     }
 
     h2 {
-      font-size: 1em;
+      font-size: 1.25em;
     }
 
     h3 {
-      font-size: 1em;
+      font-size: 1.25em;
     }
 
     h4 {
-          font-size: .75em;
+          font-size: 1em;
     }
-
-
-
-
 
 
 }
 
+
+@media (min-width: 768px) {
+    .block-pad-mobile {
+      padding-top: 0%;
+      }
+
+      #tricks {
+        padding-right: 30%;
+      }
+    }
 
 
 
