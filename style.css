@@ -79,23 +79,31 @@ h4 {
 
 /*----------mission styles-----------*/
 
+
+.navbar {
+  height: 100px;
+}
+
 #cover {
-  background-image: url('img/cover-bulk-foods-01.jpg');
-  height: 447px;
+  background-image: url('img/cover-bulk-foods-02.jpg');
+  height: 900px;
   background-size: cover;
   position: center;
 }
 
-#mission-p {
-  padding-bottom: 0px;
-}
+
 
 #mission {
-  padding-left: auto;
-  padding-top: 5%;
-  padding-bottom: 15%;
-}
 
+
+  margin: 0 auto;
+  color: white;
+  font-size: 38px;
+}
+#mission h1 {
+  padding-bottom: 0px;
+  font-size: 50px;
+}
 
 /*----------location bar styles-----------*/
 
@@ -122,6 +130,7 @@ padding-bottom: 30px;
 .par {
   display: flex;
   justify-content: space-between;
+  padding-left: 15%;
 
 }
 
@@ -131,7 +140,7 @@ padding-bottom: 30px;
 
 .arrow-padding{
   padding-top: 10px;
-  padding-right: 10%;
+  padding-right: 20%;
 }
 
 .inlineblock{
@@ -145,7 +154,7 @@ padding-bottom: 30px;
 #sale-cover {
 background: url('img/store-front.jpg') no-repeat center center;
 background-size: cover;
-height: 400px;
+height: 600px;
 display: flex;
 justify-content: center;
 align-items: center;
