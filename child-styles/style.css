@@ -1,0 +1,54 @@
+/*
+Theme Name: storefront Child
+Description: Child theme for the storefront Theme
+Author: aw
+Template: storefront
+Version: 1.6
+*/
+
+
+
+@import url("../storefront/style.css");
+
+
+
+/* getting rid of the page header */
+ }
+.hentry.type-page .entry-header {
+   display: none;
+ }
+ .site-search {
+   display: none;
+ }
+ #masthead {
+   background-color: white;
+   margin-bottom: 0px;
+ }
+ /* getting rid of space between menu and first div */
+.panel-content .wrap {
+  padding-top: 0px;
+}
+/* getting rid extra woocommrece tabs */
+.woocommerce-tabs {
+  display: none;
+}
+.woocommerce-product-gallery__trigger {
+  display: none;
+}
+
+/* typography */
+.site-title {
+  font-family: gastromond, sans-serif;
+  text-transform: lowercase;
+}
+h1{
+  font-family: gastromond, sans-serif;
+  color: #555;
+  font-size: 2em;
+  line-height: 1.25em;
+}
+p {
+  line-height: 1.75em;
+  letter-spacing: 0.06em;
+  font-size: 1em;
+}
